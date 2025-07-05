@@ -43,7 +43,7 @@ export default function Navbar() {
 							<NavigationMenuList className='gap-4'>
 								<NavigationMenuItem>
 									<Link
-										href='#home'
+										href='/'
 										className='text-gray-700 hover:text-yellow-600 transition-colors font-medium'
 									>
 										Home
@@ -57,7 +57,7 @@ export default function Navbar() {
 										<div className='grid w-48 p-2'>
 											<NavigationMenuLink asChild>
 												<Link
-													href='#waffles'
+													href='/waffles'
 													className='block px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors'
 												>
 													Waffles
@@ -65,7 +65,7 @@ export default function Navbar() {
 											</NavigationMenuLink>
 											<NavigationMenuLink asChild>
 												<Link
-													href='#shawarma'
+													href='/shawarma'
 													className='block px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors'
 												>
 													Shawarma
@@ -122,7 +122,7 @@ export default function Navbar() {
 						>
 							<div className='flex flex-col space-y-4 mt-8 ml-5'>
 								<Link
-									href='#home'
+									href='/'
 									className='text-lg font-medium text-yellow-600 hover:text-yellow-600 transition-colors'
 									onClick={() => setIsOpen(false)}
 								>
@@ -132,14 +132,14 @@ export default function Navbar() {
 									<p className='text-lg font-medium text-yellow-600'>Menu</p>
 									<div className='pl-4 space-y-2'>
 										<Link
-											href='#waffles'
+											href='/waffles'
 											className='block text-yellow-600 hover:text-yellow-600 transition-colors'
 											onClick={() => setIsOpen(false)}
 										>
 											Waffles
 										</Link>
 										<Link
-											href='#shawarma'
+											href='/shawarma'
 											className='block text-yellow-600 hover:text-yellow-600 transition-colors'
 											onClick={() => setIsOpen(false)}
 										>
