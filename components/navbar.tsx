@@ -38,9 +38,9 @@ export default function Navbar() {
 					</Link>
 
 					{/* Desktop Navigation */}
-					<div className='hidden md:flex items-center space-x-8'>
+					<div className='hidden md:flex items-center space-x-8 '>
 						<NavigationMenu>
-							<NavigationMenuList>
+							<NavigationMenuList className='gap-4'>
 								<NavigationMenuItem>
 									<Link
 										href='#home'
