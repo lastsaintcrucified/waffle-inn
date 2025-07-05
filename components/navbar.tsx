@@ -120,27 +120,27 @@ export default function Navbar() {
 							side='right'
 							className='w-80'
 						>
-							<div className='flex flex-col space-y-4 mt-8'>
+							<div className='flex flex-col space-y-4 mt-8 ml-5'>
 								<Link
 									href='#home'
-									className='text-lg font-medium text-gray-700 hover:text-yellow-600 transition-colors'
+									className='text-lg font-medium text-yellow-600 hover:text-yellow-600 transition-colors'
 									onClick={() => setIsOpen(false)}
 								>
 									Home
 								</Link>
 								<div className='space-y-2'>
-									<p className='text-lg font-medium text-gray-700'>Menu</p>
+									<p className='text-lg font-medium text-yellow-600'>Menu</p>
 									<div className='pl-4 space-y-2'>
 										<Link
 											href='#waffles'
-											className='block text-gray-600 hover:text-yellow-600 transition-colors'
+											className='block text-yellow-600 hover:text-yellow-600 transition-colors'
 											onClick={() => setIsOpen(false)}
 										>
 											Waffles
 										</Link>
 										<Link
 											href='#shawarma'
-											className='block text-gray-600 hover:text-yellow-600 transition-colors'
+											className='block text-yellow-600 hover:text-yellow-600 transition-colors'
 											onClick={() => setIsOpen(false)}
 										>
 											Shawarma
@@ -149,21 +149,21 @@ export default function Navbar() {
 								</div>
 								<Link
 									href='#about'
-									className='text-lg font-medium text-gray-700 hover:text-yellow-600 transition-colors'
+									className='text-lg font-medium text-yellow-600 hover:text-yellow-600 transition-colors'
 									onClick={() => setIsOpen(false)}
 								>
 									About Us
 								</Link>
 								<Link
 									href='#reviews'
-									className='text-lg font-medium text-gray-700 hover:text-yellow-600 transition-colors'
+									className='text-lg font-medium text-yellow-600 hover:text-yellow-600 transition-colors'
 									onClick={() => setIsOpen(false)}
 								>
 									Reviews
 								</Link>
 								<Link
 									href='#location'
-									className='text-lg font-medium text-gray-700 hover:text-yellow-600 transition-colors'
+									className='text-lg font-medium text-yellow-600 hover:text-yellow-600 transition-colors'
 									onClick={() => setIsOpen(false)}
 								>
 									Location
