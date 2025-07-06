@@ -10,7 +10,7 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 const reviews = [
 	{
 		name: "Sarah Johnson",
-		avatar: "/placeholder.svg?height=60&width=60",
+		avatar: "/images/person.jpg",
 		rating: 5,
 		comment:
 			"Absolutely amazing! The combination of waffles and shawarma is genius. The flavors work so well together.",
@@ -18,7 +18,7 @@ const reviews = [
 	},
 	{
 		name: "Mike Chen",
-		avatar: "/placeholder.svg?height=60&width=60",
+		avatar: "/images/person.jpg",
 		rating: 5,
 		comment:
 			"Best fusion restaurant in town! The chicken shawarma waffle is my new favorite dish.",
@@ -26,7 +26,7 @@ const reviews = [
 	},
 	{
 		name: "Emily Rodriguez",
-		avatar: "/placeholder.svg?height=60&width=60",
+		avatar: "/images/person.jpg",
 		rating: 4,
 		comment:
 			"Creative concept and delicious food. The staff is friendly and the atmosphere is great.",
@@ -34,7 +34,7 @@ const reviews = [
 	},
 	{
 		name: "David Kim",
-		avatar: "/placeholder.svg?height=60&width=60",
+		avatar: "/images/person.jpg",
 		rating: 5,
 		comment:
 			"I was skeptical at first, but this place exceeded all my expectations. Will definitely be back!",
@@ -42,7 +42,7 @@ const reviews = [
 	},
 	{
 		name: "Lisa Thompson",
-		avatar: "/placeholder.svg?height=60&width=60",
+		avatar: "/images/person.jpg",
 		rating: 5,
 		comment:
 			"The perfect blend of sweet and savory. The Belgian waffles are authentic and the shawarma is top-notch.",
@@ -50,7 +50,7 @@ const reviews = [
 	},
 	{
 		name: "Ahmed Hassan",
-		avatar: "/placeholder.svg?height=60&width=60",
+		avatar: "/images/person.jpg",
 		rating: 4,
 		comment:
 			"As someone from the Middle East, I can say their shawarma is authentic and delicious!",
