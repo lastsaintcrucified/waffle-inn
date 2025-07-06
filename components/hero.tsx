@@ -13,13 +13,13 @@ const heroImages = [
 		subtitle: "Crispy outside, fluffy inside, made fresh daily",
 	},
 	{
-		src: "/images/waffle-hero1.jpg",
+		src: "/images/shawarma-hero1.jpg",
 		alt: "Fresh Shawarma",
 		title: "Premium Shawarma",
 		subtitle: "Tender meat, fresh vegetables, homemade sauces",
 	},
 	{
-		src: "/images/shawarma-hero1.jpg",
+		src: "/images/waffle-hero1.jpg",
 		alt: "Waffle Shawarma Combo",
 		title: "The Perfect Fusion",
 		subtitle: "Where Belgian meets Middle Eastern cuisine",
@@ -82,7 +82,8 @@ export default function Hero() {
 			<div className='absolute inset-0 flex items-center justify-center'>
 				<div className='text-center text-white px-4 max-w-4xl'>
 					<h1 className='text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-fade-in'>
-						<span className='text-yellow-400'>Inn</span> - food Corp.
+						<span className='text-yellow-400'>Inn</span> - Food Corp
+						<span className='text-xs hidden sm:inline'>(Food Junction).</span>
 					</h1>
 					<p className='text-lg md:text-xl lg:text-2xl mb-8 opacity-90 animate-fade-in-delay'>
 						{heroImages[currentSlide].subtitle}

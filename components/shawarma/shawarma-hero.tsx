@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function ShawarmaHero() {
 	return (
@@ -37,7 +38,7 @@ export default function ShawarmaHero() {
 								size='lg'
 								className='bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3'
 							>
-								View Menu
+								<Link href='#shawarma-menu'>View Menu</Link>
 							</Button>
 							<Button
 								size='lg'

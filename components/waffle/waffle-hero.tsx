@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function WaffleHero() {
 	return (
@@ -36,7 +37,7 @@ export default function WaffleHero() {
 								size='lg'
 								className='bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3'
 							>
-								View Menu
+								<Link href='#waffle-menu'>View Menu</Link>
 							</Button>
 							<Button
 								size='lg'
